@@ -2,11 +2,11 @@
 
 
 ```shell
-npm install guiguiboy/vue3-animated-number
+npm i vue3-animated-number
 ```
 Or
 ```shell
-yarn add guiguiboy/vue3-animated-number
+yarn add vue3-animated-number
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ yarn add guiguiboy/vue3-animated-number
 Start by importing the component
 ```js
 <script setup>
-  import AnimatedNumber from '../src/components/AnimatedNumber.vue'
+  import AnimatedNumber from 'vue3-animated-number'
 ...
 
 ````
