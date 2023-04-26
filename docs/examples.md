@@ -59,10 +59,16 @@ Make a counter that goes from 0 to 2000
 <AnimatedNumber :from="0" :to="2" :decimal-digits="2" :duration="5000" />
 ```
 
-## You can provide a class attribute to customiez the style
+## You can provide a class attribute to customize the style
 
 <AnimatedNumber :from="3000" :to="50" :duration="3000" class="bold-red" />
 
+<style>
+.bold-red {
+    font-weight: bold;
+    color: red;
+}
+</style>
 ```html
 <AnimatedNumber :from="3000" :to="50" :duration="3000" class="bold-red" />
 ```
