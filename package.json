@@ -1,6 +1,6 @@
 {
   "name": "vue-3-animated-number",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "private": false,
   "scripts": {
@@ -14,12 +14,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vue3-animated-number.umd.js",
-  "module": "./dist/vue3-animated-number.es.js",
+  "main": "./dist/vue-3-animated-number.umd.js",
+  "module": "./dist/vue-3-animated-number.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue3-animated-number.es.js",
-      "require": "./dist/vue3-animated-number.umd.js"
+      "import": "./dist/vue-3-animated-number.es.js",
+      "require": "./dist/vue-3-animated-number.umd.js"
     }
   },
   "keywords": [

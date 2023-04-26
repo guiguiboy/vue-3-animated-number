@@ -12,7 +12,7 @@ export default defineConfig({
       entry: path.resolve(__dirname, 'src/index.ts'),
       name: 'animated-number',
       // the proper extensions will be added
-      fileName: format  => `vue3-animated-number.${format}.js`,
+      fileName: format  => `vue-3-animated-number.${format}.js`,
       formats: ["es", "cjs", "umd"],
     },
     rollupOptions: {

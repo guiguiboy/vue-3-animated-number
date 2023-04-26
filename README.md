@@ -4,14 +4,10 @@ Updates a number from a value to another in a counter style.
 
 ## Getting started
 
-DOCUMENTATION IN PROGRESS
-
-```
-yarn add vue-3-animated-number
-```
+Documentation is available here: https://guiguiboy.github.io/vue-3-animated-number/
 
 
-## Usage in Vue project
+## Github
 
-See usages directly on github: https://github.com/guiguiboy/vue-3-animated-number.git
+See project sources on github: https://github.com/guiguiboy/vue-3-animated-number.git
 
