@@ -39,5 +39,9 @@
   },
   "engines": {
     "node": ">=18.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guiguiboy/vue-3-animated-number.git"
   }
 }

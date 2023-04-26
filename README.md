@@ -13,3 +13,5 @@ yarn add vue-3-animated-number
 
 ## Usage in Vue project
 
+See usages directly on github: https://github.com/guiguiboy/vue-3-animated-number.git
+
