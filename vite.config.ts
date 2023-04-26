@@ -19,7 +19,7 @@ export default defineConfig({
       // make sure to externalize deps that shouldn't be bundled
       // into your library
       input: {
-        main: path.resolve(__dirname, 'src/components/index.ts')
+        main: path.resolve(__dirname, 'src/index.ts')
       },
       external: ['vue'],
       output: {
