@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Vue 3 animated number"
-  tagline: Simple.
+  tagline: Simple. Customizable. Lightweight.
   actions:
     - theme: brand
       text: Get started
@@ -21,6 +21,8 @@ features:
     details: Improve your user experience and get the Wow effect
   - title: Customizable
     details: Customize the output as you wish
+  - title: Lightweight
+    details: Only a few kB
 
 ---
 

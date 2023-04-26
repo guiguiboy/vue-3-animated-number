@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Vue 3 animated number",
   description: "Vue 3 animated number",
+  base: '/vue-3-animated-number/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

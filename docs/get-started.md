@@ -2,28 +2,30 @@
 
 
 ```shell
-npm i vue3-animated-number
+npm i vue-3-animated-number
 ```
 Or
 ```shell
-yarn add vue3-animated-number
+yarn add vue-3-animated-number
 ```
 
 ## Usage
 
-Start by importing the component
+Start by registring the component in your main.ts (or whatever entrypoint)
 ```js
-<script setup>
-  import AnimatedNumber from 'vue3-animated-number'
-...
+
+import AnimatedNumber from 'vue-3-animated-number'
+App.use(AnimatedNumber)
 
 ````
-::: warning
-Must check the path after releasing it into npm. Must also simplify the import statement.
-:::
 
+You can now start using the AnimatedNumber component in your templates
 ```html
-<AnimatedNumber :from="0" :to="2" :decimal-digits="2" :duration="5000" />
+<template>
+  ....
+  <AnimatedNumber :from="0" :to="2" :decimal-digits="2" :duration="5000" />
+</template>
+
 ```
 
 The component takes 2 mandatory parameters: 
@@ -40,3 +42,8 @@ The component takes additional optional parameters:
 ::: warning
 This component has not been yet tested on pages with lots of animated numbers. Additional performance testing should be planned.
 :::
+
+## What's next?
+
+* Publish types to ease DX
+* Test on large scale apps
